@@ -13,7 +13,7 @@ function addAndMore(x, y, cb) {
     console.log("X", x);
     console.log("Y", y);
     // Simulating anything like an API call,
-    //  a database call, an event listener
+    // a database call, an event listener
     setTimeout(function() {
         console.log("Timeout", cb);
         result = x + y;
